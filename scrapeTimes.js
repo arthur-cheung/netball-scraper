@@ -93,6 +93,8 @@ var Utils = Utils || {
             var indexOfLatestFixture = fixtures.length - 1;
             var fixture = fixtures[indexOfLatestFixture].innerText;
 
+            // TODO get whole draw instead of just next match.
+
             console.log('Next match: ' + fixture + ' (' + time + '): ' + firstTeam + ' vs ' + secondTeam);
 
             return 'Next match - ' + firstTeam + ' vs ' + secondTeam + ': ' + fixture + ' (' + time + ') ';
